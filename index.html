@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/stylestodos.css">
+    <title>ToDos JavaScript</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Aplicativo ToDos TypeScript</h1>
+        <p>Aplicación de ToDos.</p>
+        <hr>
+        <!-- Formulario para los  todos  -->
+        <div class="formTodos">
+            <input type="text" id="frmTodo">
+            <input type="button" value="Agregar Todo" id="btnAddTodo">
+        </div>
+        <hr>
+        <section class="listaTodos">
+            <article class="">
+                <h2>Lista General</h2>
+                <hr>
+                <div class="listado" id="listaGeneral">
+    
+                </div>
+            </article>
+            <article class="">
+                <h2>Lista Completados</h2>
+                <hr>
+                <div class="listado" id="listaCompletos">
+                    
+                </div>
+            </article>
+            <article class="">
+                <h2>Lista Pendientes</h2>
+                <hr>
+                <div class="listado" id="listaPendientes">
+                    
+                </div>
+            </article>
+        </section>
+        <hr>
+        <section class="resumen">
+            <div>
+                <h3>Total Tareas:</h3>
+                <h3 id="totalTareas"></h3>
+            </div>
+            <div>
+                <h3>Tareas Completadas:</h3>
+                <h3 id="totalTareasCompletadas"></h3>
+            </div>
+            <div>
+                <h3>Tareas Pendientes:</h3>
+                <h3 id="totalTareasPendientes"></h3>
+            </div>
+        </section>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+</html>
